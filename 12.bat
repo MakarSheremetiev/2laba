@@ -1,20 +1,20 @@
 echo off
-md Veryasov
-cd Veryasov
-md Danil
-md Michailovich
+md Sheremetiev
+cd Sheremetiev
+md Makar
+md Valerievich
 pause
 echo > 05062001.txt
-cd Michailovich
+cd Valerievich
 echo > computer_011.txt
 pause
 cd ..
 cd ..
-del Veryasov /S /Q /F
+del Sheremetiev /S /Q /F
 pause
-cd Veryasov
-rd Michailovich
-rd Danil
+cd Sheremetiev
+rd Valerievich
+rd Makar
 cd ..
-rd Veryasov
+rd Sheremetiev
 pause
